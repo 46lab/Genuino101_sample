@@ -98,7 +98,7 @@ sp.on('data', function(input) {
     } catch(e) {
         // データ受信がおかしい場合無視する
         console.log("Wrong JSON format.-> " + input);
-        return;
+//        return;
     }
     // つながっているクライアント全員に送信
     io.sockets.json.emit('message', { value: jsonData });
