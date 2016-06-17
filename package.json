@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "Genuino101_sample",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,5 +8,9 @@
   "dependencies": {
     "express": "3.0.6",
     "ejs": "*"
+  },
+  "devDependencies": {
+    "serialport": "^3.1.2",
+    "socket.io": "^1.4.6"
   }
 }
