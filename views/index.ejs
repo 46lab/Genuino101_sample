@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../javascripts/jquery.knob.js"></script>
+    <script src="../javascripts/sensors.js"></script>
+    <link rel='stylesheet' href='../stylesheets/style.css' />
+  </head>
+  <body>
+    <div style="width:100%;font-size:18px;line-height:40px;">
+      <h1>Genuino101-Serial(PC)-Azureのサンプル</h1>
+    </div>
+    <div aligin="center">
+    <div class="demo">
+      <H2><span>ただいまの気温℃ </span></H2>
+      <input id="knob" data-readOnly=true data-cursor=true data-linecap=round data-fgColor="#66EE66" data-width="180" data-thickness=.3 data-min="-10" data-max="50">
+    </div>
+
+    <div class="demo">
+      <H2><span>ただいまの湿度％</span></H2>
+      <input id="knob2" data-readOnly=true data-displaypreviouw=true data-fgColor="#4444FF" data-width="180" data-thickness=.3 data-min="0" data-max="100">
+    </div>
+
+    <div class="demo">
+      <H2><span>ただいまの明るさ</span></H2>
+      <input id="knob3" data-readOnly=true data-displaypreviouw=true data-fgColor="#FFEE10" data-width="180"  data-min="0" data-max="1023">
+    </div>
+
+    </div>
+    <div style="clear:both"></div>
+
+
+    <div style="height: 260px"> 
+    <div style="text-align: center">
+      <p style="font-size:20px;">サーボコントロール</p>
+    <div class="demo2">
+       <input id="knob4" data-cursor=true data-angleOffset=-125 data-angleArc=250 data-rotation=clockwise data-fgColor="#FF0000" data-width="200" data-min="0" data-max="180">
+    </div>
+    </div>
+    </div>
+    <div style="clear:both"></div>
+
+      <p style="font-size:10px;">Forty Six Lab. http://46lab.com </p>
+  </body>
+</html>
+

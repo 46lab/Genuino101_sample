@@ -1,0 +1,53 @@
+body
+{
+    padding: 0;
+    margin: 0px 50px;
+    font: "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-rendering: optimizelegibility;
+    background:#fff;
+    color:#333;
+    text-align:light;
+}
+h1
+{
+    font-weight:lighter;
+    font-family:georgia, times new roman, times, georgia, palatino, serif;
+    text-align:left;
+    margin-top:0.6em;
+    color:#111;
+    font-size:2em;
+}
+
+h2
+{
+    font-weight:lighter;
+    font-family:georgia, times new roman, times, georgia, palatino, serif;
+    text-align:center;
+    margin-top:0.6em;
+    color:#222;
+    font-size:1em;
+}
+
+p
+{
+   font-size: 30px;
+   line-height: 30px
+}
+     
+div.demo
+{
+    text-align: center;
+    width: 280px;
+    float: left;
+}
+
+
+div.demo2
+{
+    text-align: center;
+    width: 280px;
+    margin: auto;
+}
+
+
